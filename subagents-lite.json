@@ -1,0 +1,5 @@
+{
+  "agent": {
+    "seo-blog-writer": "openai/gpt-6.2-astra"
+  }
+}

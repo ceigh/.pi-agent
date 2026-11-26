@@ -1,0 +1,4 @@
+{
+  "commandTimeoutMs": 30000,
+  "formatterOutput": { "onFailure": "both" }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://pi.dev/schemas/settings.schema.json",
+  "lastChangelogVersion": "1.6.0",
+  "transport": "auto",
+  "quietStartup": true,
+  "npmCommand": ["bun"],
+  "enableInstallTelemetry": false,
+  "enableAnalytics": false,
+  "doubleEscapeAction": "tree",
+  "defaultProvider": "openai",
+  "enabledModels": [
+    "openai/gpt-6.2-astra",
+    "openai/gpt-6.2-sol",
+    "openai/gpt-6.1-terra"
+  ],
+  "modelThinkingLevels": {
+    "openai/gpt-6.2-astra": "medium",
+    "openai/gpt-6.2-sol": "medium",
+    "openai/gpt-6.1-terra": "low"
+  },
+  "defaultModel": "gpt-6.2-sol",
+  "defaultThinkingLevel": "medium",
+  "fullscreenScrollbar": "hidden",
+  "packages": [
+    "npm:@gotgenes/pi-permission-system@42.2.1",
+    "npm:@gotgenes/pi-autoformat@5.2.0",
+    "npm:pi-subagents-lite@1.19.0"
+  ],
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:@gotgenes/pi-permission-system@42.2.1\",\"scope\":\"user\"}": "42.2.1",
+    "{\"source\":\"npm:@gotgenes/pi-autoformat@5.2.0\",\"scope\":\"user\"}": "5.2.0"
+  }
+}

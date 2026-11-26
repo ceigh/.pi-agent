@@ -1,0 +1,17 @@
+# Pi credentials and local state
+/auth.json
+/mcp-auth.json
+/models-store.json
+/trust.json
+/sessions/
+/settings.json
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and local artifacts
+node_modules/
+.DS_Store
+*.log
