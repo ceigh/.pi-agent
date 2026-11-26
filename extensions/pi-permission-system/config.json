@@ -11,7 +11,8 @@
     },
     "edit": {
       "*": "allow",
-      "*/backend/*": "deny"
+      "*/backend/*": "deny",
+      "*/frontend-admin/*": "deny"
     },
     "bash": {
       "*": "allow",
